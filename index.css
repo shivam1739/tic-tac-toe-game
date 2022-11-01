@@ -1,0 +1,67 @@
+* {
+  overflow-x: hidden;
+}
+.title {
+  text-align: center;
+}
+.display {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 300px;
+  height: 300px;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.background {
+  margin: 5% 25%;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tile {
+  border: 2px solid black;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 96px;
+  width: 96px;
+}
+
+.playerX {
+  color: #4d08ef;
+}
+
+.playerO {
+  color: #f30d37;
+}
+
+.controls button {
+  color: black;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  font-size: 20px;
+  margin-left: 1em;
+  cursor: pointer;
+  background-color: #4d08ef;
+}
+.announcer {
+  font-size: 3rem;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.backgroundXAnnoumce {
+  background-color: #db5971;
+}
+.backgroundOAnnoumce {
+  background-color: #8b6fce;
+}
